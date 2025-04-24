@@ -35,3 +35,39 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+
+#book-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#book-list li {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#book-list h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+#book-list p {
+  margin: 5px 0;
+  font-style: italic;
+  color: #555;
+}
+
+#book-list img {
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 4px;
+}
